@@ -8,12 +8,13 @@ matrix:
       env: TOXENV=py36
       os: osx
       language: generic
+    - python: "3.6"
+      env: TOXENV=cover
+      language: python
+  allow_failures:
     - python: "3.7-dev"
       env: TOXENV=py37
       os: linux
-      language: python
-    - python: "3.6"
-      env: TOXENV=cover
       language: python
 
 addons:
