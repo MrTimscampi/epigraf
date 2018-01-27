@@ -11,6 +11,10 @@ matrix:
     - python: "3.6"
       env: TOXENV=cover
       language: python
+    - python: "3.7-dev"
+      env: TOXENV=py37
+      os: linux
+      language: python
   allow_failures:
     - python: "3.7-dev"
       env: TOXENV=py37
