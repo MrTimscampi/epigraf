@@ -7,10 +7,10 @@ setup(
     cmdclass=versioneer.get_cmdclass(),
     author='Julien Machiels',
     author_email='iamtimscampi@gmail.com',
-    packages=['epigraf', 'epigraf.test'],
+    packages=['epigraf'],
     license='LICENSE.txt',
     description='Next-generation file management for data hoarders.',
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         'PyQt5',],
 )
